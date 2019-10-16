@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+     
+ 
+
+	<bean id = "StudentList1" class="org.classroom.StudentList">
+		<property name = "studentList1">
+			<list>
+				<ref bean = "Student1" />
+				<ref bean = "Student2" />
+				<ref bean = "Student3" />
+			</list>
+		</property>
+	</bean>
+      
+</beans>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- <bean id = "ClassRoom1" class="org.classroom.ClassRoom" scope="singleton">
+		<property name="stud" ref="Student1"></property>
+		<property name="locat" ref="Location1"></property>
+		<property name="ment" ref="Mentor1"></property>
+	</bean>
+	
+	<bean id = "ClassRoom2" class="org.classroom.ClassRoom" scope="singleton">
+		<property name="stud" ref="Student2"></property>
+		<property name="locat" ref="Location2"></property>
+		<property name="ment" ref="Mentor2"></property>
+	</bean>
+	
+	<bean id = "ClassRoom3" class="org.classroom.ClassRoom" scope="singleton">
+		<property name="stud" ref="Student3"></property>
+		<property name="locat" ref="Location3"></property>
+		<property name="ment" ref="Mentor3"></property>
+	</bean> -->
+	
+
+	<bean id = "ClassList" class = "org.classroom.ClassRoom">
+		<property name="studlist" ref = "StudentList1"></property>
+		<property name="locat" ref="Location3"></property>
+		<property name="ment" ref="Mentor3"></property>
+	</bean>
+ </beans>
